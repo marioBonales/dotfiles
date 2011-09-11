@@ -1,0 +1,11 @@
+#git aliases
+alias g='git status'
+alias gs='git status'
+alias gb='git branch'
+alias ga='git add .'
+function gvim () { /usr/bin/gvim -f $* & }
+function mvim () { /usr/bin/gvim -f $* & }
+alias ack='ack-grep'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'

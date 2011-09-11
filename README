@@ -1,0 +1,5 @@
+This is my personal set of dotfiles that I use at work and on my personal computer. It is slowly expanding.
+
+I borrowed some of the default setting from Ubuntu 
+
+To install clone the repository and add a link in your .bashrc to the bashrc file
