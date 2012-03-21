@@ -1,11 +1,11 @@
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
-. ~/dotfiles/bash/aliases
-. ~/dotfiles/bash/config
+. ~/dotfiles/bash/aliases.sh
+. ~/dotfiles/bash/config.sh
 case $(uname -s) in
 	Linux)
-	. ~/dotfiles/bash/ubuntu
+	. ~/dotfiles/bash/ubuntu.sh
 	;;
 	Darwin)
 	#TODO	- ~/dotfiles/bash/mac
